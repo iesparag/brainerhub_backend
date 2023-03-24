@@ -3,7 +3,7 @@ require("dotenv").config();
 
 
 mongoose.set("strictQuery", true);
-const connection = mongoose.connect(process.env.mongo_URL_chargebee);
+const connection = mongoose.connect(process.env.mongo_URL_BRAINERHUB);
 
 module.exports = {
   connection,
